@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Ghost Glow Grid</title>
+<style>
+body{background:#0a0a0a;color:#00ff00;font-family:monospace;text-align:center;}
+h1{color:#00ffff;}
+button{padding:15px;margin:5px;cursor:pointer;}
+</style>
+<script>
+let glow=Math.floor(Math.random()*9)+1;
+function guess(cell){
+    alert(cell==glow?'You found the glowing cell! 🌟':'Wrong! The glowing cell was '+glow);
+}
+</script>
+</head>
+<body>
+<h1>👻 GHOST GLOW GRID 👻</h1>
+<p>Guess which cell will glow (1-9)</p>
+<div>
+<button onclick="guess(1)">1</button>
+<button onclick="guess(2)">2</button>
+<button onclick="guess(3)">3</button><br>
+<button onclick="guess(4)">4</button>
+<button onclick="guess(5)">5</button>
+<button onclick="guess(6)">6</button><br>
+<button onclick="guess(7)">7</button>
+<button onclick="guess(8)">8</button>
+<button onclick="guess(9)">9</button>
+</div>
+</body>
+</html>
