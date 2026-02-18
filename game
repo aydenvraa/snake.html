@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Ghost Snake</title>
+<style>
+body { background: #0a0a0a; color: #00ff00; font-family: monospace; text-align:center; }
+h1 { color: #00ffff; }
+button { padding:10px 20px; margin:10px; background:#00ff00; border:none; color:#000; cursor:pointer; }
+</style>
+</head>
+<body>
+<h1>👻 GHOST SNAKE GAME 👻</h1>
+<p>Coming Soon! Click below to simulate playing.</p>
+<button onclick="alert('Snake game placeholder!')">Play Snake</button>
+</body>
+</html>
