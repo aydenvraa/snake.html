@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Ghost Tap Battle</title>
+<style>
+body { background:#0a0a0a; color:#00ff00; font-family:monospace; text-align:center; }
+h1 { color:#00ffff; }
+button { padding:20px 30px; margin:20px; background:#00ff00; border:none; color:#000; cursor:pointer; font-size:18px; }
+</style>
+<script>
+let score=0;
+function tap(){ score++; alert('Score: '+score); }
+</script>
+</head>
+<body>
+<h1>👻 GHOST TAP BATTLE 👻</h1>
+<p>Click as fast as you can!</p>
+<button onclick="tap()">TAP!</button>
+</body>
+</html>
