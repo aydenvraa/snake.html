@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Ghost Coin Flip</title>
+<style>
+body { background:#0a0a0a; color:#00ff00; font-family:monospace; text-align:center; }
+h1 { color:#00ffff; }
+button { padding:10px 20px; margin:10px; background:#00ff00; border:none; color:#000; cursor:pointer; }
+</style>
+<script>
+function flip(choice){
+    const result=Math.random()<0.5?'Heads':'Tails';
+    alert(`You chose ${choice}\nCoin landed on ${result}`);
+}
+</script>
+</head>
+<body>
+<h1>👻 GHOST COIN FLIP 👻</h1>
+<p>Flip the coin and test your luck!</p>
+<button onclick="flip('Heads')">Heads</button>
+<button onclick="flip('Tails')">Tails</button>
+</body>
+</html>
