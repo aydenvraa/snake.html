@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Ghost Bomb Defuse</title>
+<style>
+body { background:#0a0a0a; color:#00ff00; font-family:monospace; text-align:center; }
+h1 { color:#00ffff; }
+button { padding:10px 20px; margin:5px; cursor:pointer; }
+</style>
+<script>
+function cut(wire){
+    const correct=Math.floor(Math.random()*3)+1;
+    alert(wire==correct?'Bomb Defused!':'BOOM! You failed!');
+}
+</script>
+</head>
+<body>
+<h1>👻 GHOST BOMB DEFUSE 👻</h1>
+<p>Pick a wire to cut (1-Red, 2-Blue, 3-Green)</p>
+<button onclick="cut(1)">Red</button>
+<button onclick="cut(2)">Blue</button>
+<button onclick="cut(3)">Green</button>
+</body>
+</html>
